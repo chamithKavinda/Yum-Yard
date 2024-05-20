@@ -151,3 +151,12 @@ nav ul li{
     padding: 15px 0;
     cursor: pointer;
 }
+
+/* -------------------------- Footer Section --------------------------  */
+
+.footer{
+    background: #333;
+    padding: 20px 0;
+    color: #ffff;
+    text-align: center;
+}
