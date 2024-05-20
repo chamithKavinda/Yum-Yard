@@ -40,3 +40,57 @@ nav ul li{
 .logo{
     font-size: 24px;
 }
+
+/* -------------------------- Home --------------------------  */
+
+.home{
+    width: 100%;
+    height: auto;
+    background: url(/assest/HomeImage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 140px 0;
+}
+
+.home h2{
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.home p{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.search-box{
+    max-width: 550px;
+    margin: 15px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.search-box input{
+    width: 70%;
+    padding: 10px;
+    outline: none;
+    border: 0;
+    border-radius: 5px 0 0 5px;
+    font-size: 1rem;
+    border: 1px solid rgb(255, 15, 15);
+}
+
+.search-box button{
+    padding: 10px 20px;
+    outline: none;
+    border: 0;
+    border-radius: 0px 5px 5px 0px;
+    font-size: 1rem;
+    background: rgb(255, 15, 15);
+    color: white;
+    cursor: pointer;
+}
