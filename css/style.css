@@ -50,18 +50,18 @@ nav ul li{
 .home{
     width: 100%;
     height: auto;
-    background: url(/assest/HomeImage.jpg);
+    background: url(/assest/images/HomeImage.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     color: #5e5c5c;
     text-align: center;
-    padding: 140px 0;
+    padding: 200px 0;
     margin-bottom: 20px;
 }
 
 .home-section{
-    margin-top: 35px;
+    margin-top: 50px;
 }
 
 .home h2{
