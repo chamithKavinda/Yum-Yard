@@ -16,7 +16,7 @@ body{
 header{
     height: 60px;
     width: 100%;
-    background: #222121;
+    background: #5e5c5c;
     color: white;
     display: flex;
     align-items: center;
@@ -54,10 +54,14 @@ nav ul li{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    color: white;
+    color: #5e5c5c;
     text-align: center;
     padding: 140px 0;
     margin-bottom: 20px;
+}
+
+.home-section{
+    margin-top: 35px;
 }
 
 .home h2{
