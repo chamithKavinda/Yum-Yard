@@ -129,6 +129,32 @@ nav ul li a:hover::after{
     cursor: pointer;
 }
 
+/* -------------------------- About Section --------------------------  */
+
+.about{
+    padding: 50px 0;
+}
+
+.about h1{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 28px;
+    color: #5e5c5c;
+}
+
+.about-section img{
+    width: 40%;
+    height: 540px;
+    object-fit: cover;
+    border-radius: 2%;
+    margin-left: 4%;
+}
+
+.about-section p{
+    margin-left: 45%;
+}
+
+
 /* -------------------------- Recipe Section --------------------------  */
 
 .recipes{
@@ -139,6 +165,7 @@ nav ul li a:hover::after{
     text-align: center;
     margin-bottom: 30px;
     font-size: 28px;
+    color: #5e5c5c;
 }
 
 .recipe-section{
@@ -162,7 +189,6 @@ nav ul li a:hover::after{
     width: 100%;
     height: 200px;
     object-fit: cover;
-    
 }
 
 .recipe-card h2{
