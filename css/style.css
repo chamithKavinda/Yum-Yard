@@ -16,10 +16,11 @@ body{
 header{
     height: 60px;
     width: 100%;
-    background: #5e5c5c;
-    color: white;
+    background: #ebebeb;
+    color: #5e5c5c;
     display: flex;
     align-items: center;
+    position: fixed;
 }
 
 .container{
@@ -28,6 +29,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-right: 30px;
 }
 
 .nav-list{
@@ -37,8 +39,31 @@ header{
 nav ul li{
     list-style: none;
     display: inline;
-    margin-right: 20px;
+    margin-right: 70px;
     font-weight: 550;
+    text-decoration: none;
+}
+
+nav ul li a{
+    color: #5e5c5c;
+    text-decoration: none;
+    font-size: 17px;
+    position: relative;
+}
+
+nav ul li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #5e5c5c;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+
+nav ul li a:hover::after{
+    width: 100%;
 }
 
 .logo{
@@ -56,7 +81,7 @@ nav ul li{
     background-position: center;
     color: #5e5c5c;
     text-align: center;
-    padding: 200px 0;
+    padding: 230px 0;
     margin-bottom: 20px;
 }
 
