@@ -131,13 +131,41 @@ nav ul li a:hover::after{
 
 /* -------------------------- About Section --------------------------  */
 
+.about{
+    padding: 50px 0;
+}
 
+.about h2{
+    text-align: center;
+    color: #5e5c5c;
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+
+.about-section{
+    display: flex;
+}
+
+.about-section img{
+    width: 40%;
+    height: 60%;
+    padding: 40px;
+    border-radius: 50px;
+}
+
+.about-section p{
+    color: #5e5c5c;
+    padding: 50px;
+    margin-top: -20px;
+    margin-left: -30px;
+}
 
 
 /* -------------------------- Recipe Section --------------------------  */
 
 .recipes{
     padding: 50px 0;
+    margin-top: -40px;
 }
 
 .recipes h1{
