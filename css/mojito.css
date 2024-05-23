@@ -1,0 +1,39 @@
+.container {
+    max-width: 600px;
+    padding: 10px;
+    margin-left: 50px;
+    background-color: #fff;
+}
+
+h1 {
+    color:#5e5c5c;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #27ae60;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.instructions {
+    margin-top: 20px;
+    margin-left: 60px;
+}
+
+.container ul li{
+    margin-left: 60px;
+}
+
+.container img{
+    width: 80%;
+    height: 60%;
+    border-radius: 20px;
+    margin-left: 700px;
+    margin-top: -900px;
+    margin-bottom: 200px;
+}
